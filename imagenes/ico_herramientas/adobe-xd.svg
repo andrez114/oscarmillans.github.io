@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="130" viewBox="0 0 170 157">
+  <g id="icono-xd" transform="translate(-306 -2013)">
+    <g id="Rectángulo_15" data-name="Rectángulo 15" transform="translate(306 2013)" fill="#51ec88" stroke="#707070" stroke-width="1">
+      <rect width="170" height="157" rx="30" stroke="none"/>
+      <rect x="0.5" y="0.5" width="169" height="156" rx="29.5" fill="none"/>
+    </g>
+    <text id="Xd" transform="translate(391 2130)" fill="#1f1f24" font-size="93" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-59.26" y="0">Xd</tspan></text>
+  </g>
+</svg>
