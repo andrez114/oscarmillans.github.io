@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&family=Share+Tech+Mono&display=swap');
+
+body {
+  font-family: 'Share Tech Mono',
+    monospace;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 /* Barra de navegacion */
 
 
@@ -66,14 +76,15 @@ section {
 }
 
 h1 {
-  padding-top: 7rem;
+  padding-top: 3rem;
   font-size: 2.5rem;
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Share Tech', sans-serif;
 }
 
 b{
   font-size: larger;
+   font-family: 'Courier New', Courier, monospace;
   
 }
 
@@ -96,7 +107,8 @@ b{
 .seccion-titulo {
   font-size: 2rem;
   padding: 15px 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Share Tech',
+    sans-serif;
 }
 
 
@@ -154,7 +166,7 @@ b{
 /* Experiencia */
 
 .experiencia {
-  padding: 40px 40px 60px 40px;
+  padding: 40px 40px 10px 40px;
 }
 
 .experiencia .columna {
@@ -170,7 +182,6 @@ b{
 .experiencia .columna:hover {
   color: #1F1F24;
   background-color: #00c19b;
-  animation:rotate-hor-center 1s cubic-bezier(.455,.03,.515,.955) both
 }
 
 .experiencia i {
@@ -348,7 +359,8 @@ footer {
   font-size: 1.5rem;
   padding: 20px;
   margin-bottom: 30px;
-  font-family: 'Quicksand', sans-serif;
+  font-family:'Share Tech Mono',
+    monospace;
 }
 
 .iconos-redes-sociales a {
@@ -389,8 +401,6 @@ footer {
 
 
 /* Animaciones */
-
-@keyframes rotate-hor-center{0%{transform:rotateX(0)}100%{transform:rotateX(-360deg)}}
 
 @keyframes rotate-scale-up-horizontal{
   0%{transform:scale(1) rotateX(0)}50%{transform:scale(2) rotateX(-180deg)}100%{transform:scale(1) rotateX(-360deg)}
